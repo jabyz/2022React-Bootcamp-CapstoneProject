@@ -31,7 +31,7 @@ const ProductCategories = () => {
       <div className="horizontal-snap">
         {mock.results.map((m) => {
           return (
-            <a href="#" key={m.id}>
+            <a href="#/" key={m.id}>
               <img src={m.data.main_image.url} alt="" />
             </a>
           );
