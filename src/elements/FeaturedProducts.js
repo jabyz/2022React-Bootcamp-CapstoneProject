@@ -14,7 +14,6 @@ const FeaturedProductsContainer = styled.div`
 `;
 
 const FeaturedProducts = () => {
-  console.log(mock.results);
   return (
     <FeaturedProductsContainer>
       {mock.results.map((m) => {
